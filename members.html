@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>其他成員</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      min-height: 100vh;
+    }
+    nav {
+      width: 220px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    nav h2 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 15px 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex-grow: 1;
+      padding: 30px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      max-width: 600px;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    .card .info {
+      display: flex;
+      align-items: center;
+    }
+    .card .details {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>選單</h2>
+    <ul>
+      <li><a href="index.html">主頁面</a></li>
+      <li><a href="members.html">其他成員</a></li>
+      <li><a href="research.html">研究內容</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>其他成員</h1>
+
+    <div class="card">
+      <div class="info">
+        <img src="https://via.placeholder.com/100" alt="頭像">
+        <div class="details">
+          <h3>李四</h3>
+          <p>碩士生</p>
+          <p>Email: lisi@example.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="info">
+        <img src="https://via.placeholder.com/100" alt="頭像">
+        <div class="details">
+          <h3>王五</h3>
+          <p>博士生</p>
+          <p>Email: wangwu@example.com</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>
